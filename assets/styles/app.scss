@@ -1,0 +1,98 @@
+
+@import "variable";
+@import "navbarre";
+@import "footer";
+@import url('https://fonts.googleapis.com/css2?family=Kanit:ital,wght@1,500&display=swap');
+*{
+    list-style-type: none!important;
+    text-decoration: none!important;
+    margin: 0;
+    padding: 0;
+}
+
+#corps{
+    background: no-repeat url("../img/jack-b-YHFaMjk4uVo-unsplash.jpg");
+    height: 100vh;
+    background-size: cover;
+}
+
+body {
+    background-color: #1E1A1A;
+    color: #F3F3F3;
+    font-family: 'Kanit', sans-serif;
+}
+header{
+
+    text-align: center;
+}
+
+h3{
+    text-align: center;
+    margin-top: 50px;
+}
+.titrehome{
+    margin-top: 5%;
+    text-align: center;
+}
+
+.carou{
+    margin: 10% 0 10% 29%;
+    width: 40%;
+
+}
+.imgteam{
+    display: flex;
+
+    margin: 10% auto;
+}
+.logo_team{
+    width: 30%;
+}
+
+.imgdesc{
+    width: 500px;
+    height: 500px;
+}
+
+.grid{
+   display: flex;
+    justify-content: space-around;
+    margin: 10% 0;
+}
+.grid1{
+
+}
+.grid2 ul li{
+    margin: 10% 0;
+}
+
+
+.card {
+    background-color: #ffffff;
+    width: 400px;
+    height: 300px;
+    img {
+        width: 100%;
+        height: 80%;
+    }
+
+    p{
+        color: #222222;
+        text-align: center;
+    }
+}
+
+.maingame{
+    display: flex;
+    justify-content: center;
+}
+
+.secondarygame{
+    display: flex;
+    justify-content: space-around;
+    margin-bottom: 10%;
+}
+
+.twitch{
+    margin-left: 20%;
+}

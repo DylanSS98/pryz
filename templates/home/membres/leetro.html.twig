@@ -1,0 +1,74 @@
+{% extends 'base.html.twig' %}
+
+
+{% block body %}
+
+
+    <div class="titrehome">
+        <h1 class="leetro">LEETRO</h1>
+        <h3>Co-fondateur</h3>
+    </div>
+
+    <div class="grid">
+
+        <div class="grid1">
+            <img class="imgdesc" src="{{ asset('build/img/logo_leetro.jpg') }}" alt="">
+        </div>
+
+        <div class="grid2">
+            <ul class="description">
+                <li>Membre fondateur de la <strong>Pryz</strong> avec <span class="myroko">Myroko</span>.</li>
+
+                <li>Farmeur professionnel.</li>
+
+                <li>Exploite et analyse force et faiblesse des jeux <br>afin d'utiliser les meilleures stratégies.</li>
+
+                <li>À trouver l'amour !</li>
+
+                <li>Marque gaming préférée : Corsair gaming, logitech.</li>
+            </ul>
+        </div>
+
+    </div>
+
+
+    <h3>Jeu principal</h3>
+
+    <div class="maingame">
+        <div class="card">
+            <img src="{{ asset('build/img/dofus.jpg') }}" class="card-img-top" alt="">
+            <div class="card-body">
+                <p class="card-text">DOFUS</p>
+            </div>
+        </div>
+    </div>
+
+
+    <h3>Jeu secondaire</h3>
+
+    <div class="secondarygame">
+        <div class="card">
+            <img src="{{ asset('build/img/lol.jpg') }}" class="card-img-top" alt="">
+            <div class="card-body">
+                <p class="card-text">LEAGUE OF LEGEND</p>
+            </div>
+        </div>
+
+        <div class="card">
+            <img src="{{ asset('build/img/wow.jpg') }}" class="card-img-top" alt="">
+            <div class="card-body">
+                <p class="card-text">WORLD OF WARCRAFT</p>
+            </div>
+        </div>
+
+        <div class="card">
+            <img src="{{ asset('build/img/rocketleague.jpg') }}" class="card-img-top" alt="">
+            <div class="card-body">
+                <p class="card-text">ROCKET LEAGUE</p>
+            </div>
+        </div>
+    </div>
+
+
+
+{% endblock %}

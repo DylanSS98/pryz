@@ -1,0 +1,60 @@
+.navbarre {
+  position: relative;
+  top: 0;
+  width: 100%;
+  background-color: #222222;
+  padding-bottom: 30px;
+  padding-top: 2%;
+  box-shadow: 1px 1px 5px #f1f2f3;
+  hr {
+    background-color: #f1f2f3;
+    width: 90%;
+    opacity: 0.5;
+  }
+
+
+
+  .navmembre {
+    display: flex;
+    justify-content: space-around;
+
+    a {
+      color: #f1f2f3;
+
+      &:hover {
+        text-decoration: none !important;
+        transform: scale(1.2);
+        transition-duration: 0.5s;
+      }
+
+    }
+
+    .myrokonav {
+      &:hover {
+        color: $myroko;
+      }
+    }
+
+    .fyroxnav {
+      &:hover {
+        color: $fyrox;
+      }
+    }
+
+    .cazertoxnav {
+      &:hover {
+        color: $cazertox;
+      }
+    }
+
+    .leetronav {
+      &:hover {
+        color: $leetro;
+      }
+    }
+  }
+
+
+
+
+      }

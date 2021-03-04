@@ -1,0 +1,22 @@
+{% extends 'base.html.twig' %}
+
+{% block title %}{% endblock %}
+
+{% block body %}
+<div id="corps">
+    <header>
+    <br>
+    <img src="https://img.icons8.com/fluent/25/000000/up.png"/> <br>
+    <p>Choisis un membre pour avoir plus de détails sur lui</p>
+    </header>
+
+    <div class="titrehome">
+    <h2>BIENVENUE SUR LE SITE OFFICIEL DE LA <span style="color: #BE1A1B">PRYZ</span> TEAM</h2>
+        <img class="logo_team" src="{{ asset('build/img/logo_pryz.png') }}" alt="logo pryz team">
+    </div>
+</div>
+
+    <h2 class="titrehome">BIEN PLUS QU'UNE TEAM, UNE <span style="color: #F6C915">FAMILLE</span> ...</h2>
+
+    <img class="border imgteam" src="{{ asset('build/img/mdr.jpg') }}" alt="">
+{% endblock %}
