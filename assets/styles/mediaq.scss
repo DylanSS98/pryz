@@ -1,0 +1,27 @@
+@media screen and (max-width: 1220px){
+
+  .secondarygame{
+    align-items: center;
+    flex-direction: column;
+    card{
+
+    }
+  }
+  #corps {
+    background: #1E1A1A;
+
+    header{
+      font-size: 1.8em;
+      margin-bottom: 20%;
+    }
+
+    .titrehome {
+      font-size: 3.0em;
+    }
+
+    .logo_team {
+      width: 100%;
+      margin-top: 30%;
+    }
+  }
+}
